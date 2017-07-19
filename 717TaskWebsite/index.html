@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>717TaskWebsite</title>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Sass/index.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">luyaJ</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#about">About<span class="sr-only">(current)</span></a></li>
+                <li class="page"><a href="#page">Page</a></li>
+                <li><a href="#learn">Learn</a></li>
+                <li><a href="#call">Call</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="content" data-spy="scroll" data-target="#navbar-example" data-offset="0" style="overflow: auto;position: relative">
+
+    <!--about me-->
+    <div id="about">
+        <div class="media">
+            <div class="media-body">
+                <h4 class="media-heading">WHO AM I</h4>
+                <p class="info">I AM A STUDENT AT EAST CHINA JIAOTONG UNIVERSITY. MY MAJOR IS SOFTWARE ENGINEER.
+                    YOU CAN CALL ME LUYAJ.</p>
+                <hr class="line-style">
+                <img src="images/star.png">
+                <p class="words">Talk is cheap,show me the code.</p>
+            </div>
+            <div class="media-right">
+                <img class="media-object" src="images/webtop.jpg">
+            </div>
+
+        </div>
+    </div>
+
+    <!--这个网页用到的技术-->
+    <div id="page">
+        <h4>WHAT DO I USE ON THIS SITE?</h4>
+        <hr class="web-line">
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <a href="http://www.w3school.com.cn/" class="thumbnail" target="_blank">
+                    <img src="images/website1.png">
+                </a>
+                <p>HTML/HTML5</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <a href="http://v3.bootcss.com/" class="thumbnail" target="_blank">
+                    <img src="images/website2.png">
+                </a>
+                <p>Bootstrap</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <a href="https://codepen.io/anon/pen/LLoBXW" class="thumbnail" target="_blank">
+                    <img src="images/website6.png">
+                </a>
+                <p>CodePen</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <a href="https://www.sass.hk/" class="thumbnail" target="_blank">
+                    <img src="images/website3.png">
+                </a>
+                <p>Sass</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <a href="http://ambiance.somethingjustlikethis.com/" class="thumbnail" target="_blank">
+                    <img src="images/website4.png">
+                </a>
+                <p>Theme Color</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <a href="https://fonts.google.com/" class="thumbnail" target="_blank">
+                    <img src="images/website5.png">
+                </a>
+                <p>Google Fonts</p>
+            </div>
+        </div>
+    </div>
+
+    <!--我学到了什么-->
+    <div id="learn">
+        <h4>WHAT HAVA I LEARNED?</h4>
+        <hr class="learn-line">
+        <div class="learn-content">
+                <p class="learn1 learn-css">1.通过这次的练习，我解决了上次</p>
+                <p class="learn1 learn-css">在厦门实训中遇到的问题：导航栏</p>
+                <p class="learn1 learn-css">中的li标签,使用hover之后，ul</p>
+                <p class="learn1 learn-css">会浮动，经过这一次仔细的检查之</p>
+                <p class="learn1 learn-css">后，这样的问题没有出现了. 2.练</p>
+                <p class="learn1 learn-css">习使用了A package manager</p>
+                <p class="learn1 learn-css">for the web--Bower && Sass. </p>
+                <p class="learn1 learn-css">3.使用了Bootstrap中的插件--滚</p>
+                <p class="learn1 learn-css">动监听，对Bootstrap更了解了.</p>
+                <p class="learn1 learn-css">Question:The Css3 for typing</p>
+                <p class="learn1 learn-css">is not self-adaption ???</p>
+        </div>
+    </div>
+
+    <!--和我联系-->
+    <div id="call">
+        <h4>CONTACT ME</h4>
+        <hr class="call-line">
+        <form>
+            <input placeholder="Name" name="name" class="input">
+            <input type="email" placeholder="Email Address" class="input">
+            <input type="tel" placeholder="Phone Number" class="input">
+            <input placeholder="Message" class="input input-message">
+            <input class="btn btn-default" type="submit" value="Submit">
+        </form>
+    </div>
+
+</div>
+
+<!--底部-->
+<footer>
+    <h1>About the web</h1>
+    <p>MADE IN 2017/7/19</p>
+    <p>luyaJ &copy; . All Rights Reversed</p>
+</footer>
+
+</body>
+</html>

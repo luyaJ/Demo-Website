@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Bellefair|Lemonada");
+body {
+  background: #BCC5D1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lemonada', cursive;
+  font-size: 16px;
+  position: relative; }
+
+.navbar {
+  background: #CAD9B2;
+  border-color: #CAD9B2;
+  border-radius: 0;
+  padding: 10px;
+  box-shadow: 0 2px 2px 1px rgba(204, 204, 163, 0.3); }
+  .navbar .container-fluid {
+    width: 70%; }
+    .navbar .container-fluid .navbar-brand {
+      font-size: 30px;
+      font-family: 'Lemonada', cursive;
+      font-weight: bold; }
+    .navbar .container-fluid .nav .active {
+      box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); }
+    .navbar .container-fluid .nav li {
+      height: 50px;
+      width: 84px; }
+      .navbar .container-fluid .nav li:hover {
+        background: #CAD9B2;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); }
+      .navbar .container-fluid .nav li a {
+        text-align: center; }
+
+.content {
+  max-width: 1073px;
+  margin: 0 auto; }
+
+#about {
+  background: #E5EBDA;
+  box-shadow: 0 2px 2px 1px rgba(204, 204, 163, 0.3);
+  border-bottom: 1px solid #ccc;
+  margin-top: 70px; }
+  #about .media {
+    max-width: 900px;
+    margin: 0 auto; }
+  #about .media-right img {
+    margin: 70px 0 70px 70px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50% 50% 0;
+    opacity: 0.8; }
+  #about .media-body {
+    text-align: center;
+    width: 600px; }
+    #about .media-body h4 {
+      margin: 100px 0 50px;
+      font-size: 30px;
+      color: #BCC5D1; }
+    #about .media-body p {
+      margin: 40px 0; }
+    #about .media-body .info {
+      line-height: 25px;
+      text-align: right; }
+    #about .media-body .line-style {
+      border-top: solid 4px;
+      color: #BCC5D1;
+      max-width: 400px; }
+    #about .media-body img {
+      float: right;
+      margin-top: -40px; }
+    #about .media-body .words {
+      margin-bottom: 50px; }
+
+#page {
+  background: #DADBEF;
+  box-shadow: 0 2px 2px 1px rgba(204, 204, 163, 0.3);
+  text-align: center;
+  padding: 60px;
+  border-bottom: 1px solid #ccc; }
+  #page h4 {
+    font-size: 30px;
+    color: #6E8EC9;
+    margin-bottom: 50px; }
+  #page .web-line {
+    border-top: solid 4px;
+    color: #6E8EC9;
+    max-width: 700px;
+    margin-bottom: 50px; }
+
+#learn {
+  background: #D9D3C1;
+  box-shadow: 0 2px 2px 1px rgba(204, 204, 163, 0.3);
+  text-align: center;
+  padding: 60px; }
+  #learn h4 {
+    font-size: 30px;
+    color: #A38F86;
+    margin-bottom: 50px; }
+  #learn .learn-line {
+    border-top: dashed 4px;
+    color: #A38F86;
+    max-width: 700px;
+    margin-bottom: 50px; }
+  #learn .learn-content {
+    width: 325px;
+    margin: 0 auto; }
+    #learn .learn-content .learn-css {
+      font-size: 1.8rem;
+      padding-top: 6%;
+      margin-bottom: 4%;
+      font-weight: normal;
+      letter-spacing: .1rem;
+      -webkit-animation: type 2s steps(50, end) forwards;
+      animation: type 2s steps(50, end) forwards; }
+    #learn .learn-content .learn1 {
+      text-align: center;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden; }
+@-webkit-keyframes type {
+  from {
+    width: 0; } }
+@keyframes type {
+  from {
+    width: 0; } }
+#call {
+  background: #D99B91;
+  box-shadow: 0 2px 2px 1px rgba(204, 204, 163, 0.3);
+  text-align: center;
+  padding: 60px; }
+  #call h4 {
+    font-size: 30px;
+    color: #836C89;
+    margin-bottom: 50px; }
+  #call .call-line {
+    border-top: solid 4px;
+    color: #836C89;
+    max-width: 700px;
+    margin-bottom: 50px; }
+  #call form {
+    margin: 0 auto;
+    width: 300px; }
+    #call form .input {
+      height: 60px;
+      border: none;
+      display: block;
+      margin: 20px;
+      text-indent: 1em;
+      background: #D99B91;
+      outline: none; }
+    #call form .btn {
+      font-size: 20px;
+      background: #E6AFAC;
+      border-color: #E6AFAC;
+      text-align: center; }
+
+footer {
+  width: 100%;
+  background: #E5EBDA;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px; }
+
+/*# sourceMappingURL=index.css.map */
