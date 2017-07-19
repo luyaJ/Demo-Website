@@ -1,0 +1,184 @@
+
+/*灰色部分*/
+.content{
+    border-top: 1px solid #fff;
+    margin-top: -5px;
+    background: url(../images/line_hor1.jpg) bottom repeat-x #f5f5f5;
+}
+.center{
+    width: 900px;
+    height: 220px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 27px;
+    color: #4e4e4e;
+}
+.artical{
+    margin-top: 15px;
+}
+.artical img{
+    float: left;
+}
+.text{
+    width: 720px;
+    font-size: 12px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+}
+.pic img{
+    position: relative;
+    float: left;
+}
+
+.p_content {
+    margin-top: 15px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.p_service{
+    margin-top: 0;
+}
+
+.p_title {
+    font-weight: bold;
+    font-size: 12px;
+}
+a{
+    color: #a369c4;
+}
+
+.main{
+    width: 900px;
+    margin: 0 auto;
+    height: 260px;
+}
+.main_left{
+    padding-left: 20px;
+    margin-top: 9px;
+    width: 480px;
+    position: relative;
+    float: left;
+}
+.left_text{
+    font-size: 12px;
+    padding-top: 15px;
+
+}
+.link1{
+    padding-right: 15px;
+    display: inline-block;
+    background: url("../images/marker_1.gif") right 7px no-repeat;
+    margin-top: 10px;
+}
+
+.main_right{
+    padding-left: 37px;
+    position: relative;
+    float: left;
+}
+.right_pic{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.pic{
+    margin-bottom: 20px;
+    width: 345px;
+    height: 70px;
+}
+.pic_text{
+    margin-left: 25px;
+    width: 212px;
+    position: relative;
+    float: left;
+}
+.s_bottom{
+    margin-top: 20px;
+    width: 570px;
+}
+.s_bottom_content{
+    width: 570px;
+    position: relative;
+    margin-top: 20px;
+    float: left;
+}
+.main_bottom{
+    width: 900px;
+    height: 280px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding-bottom: 52px;
+}
+h3{
+    background: url(../images/box2.jpg) no-repeat;
+    font-size: 22px;
+    padding: 0 20px;
+    font-weight:300;
+    line-height: 51px;
+    color: #fff;
+    margin: 17px 0 20px 0;
+}
+.col{
+    position: relative;
+    float: left;
+    width: 275px;
+    height: 270px;
+}
+.bottom_text{
+    padding: 0 20px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main_ul{
+    padding-left: 20px;
+    margin: 0;
+}
+.main_ul li{
+    line-height: 28px;
+    padding-left: 28px;
+    font-size: 12px;
+    background: url(../images/marker_2.jpg) 0 5px no-repeat;
+}
+.main_ul a{
+    color: #4e4e4e;
+}
+.left_service{
+    padding-left: 20px;
+}
+.right_service{
+    padding-left: 37px;
+    width: 550px;
+    position: relative;
+    float: left;
+    font-size: 13px;
+}
+.main_service{
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 52px;
+    height: 510px;
+}
+.service_ul{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.service_ul li{
+    line-height: 30px;
+    padding-left: 28px;
+    background: url("../images/marker_2.jpg") 0 5px no-repeat;
+}
+.service_ul a{
+    color: #4e4e4e;
+}
+.s_bottom_text{
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    width: 390px;
+}
