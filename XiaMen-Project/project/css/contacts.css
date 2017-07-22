@@ -1,0 +1,189 @@
+.our{
+	background-color: #F5F5F5;
+	height: 219px;
+	margin-top: -5px;
+}
+
+.our1{
+	width: 880px;
+	height: 199px;
+	padding-bottom: 20px;
+	margin: 0px auto;
+	padding-left: 20px;
+}
+
+
+.our1_left{
+	width: 258px;
+	height: 199px;
+}
+
+.text_top{
+	width: 258px;
+	height: 38px;
+	padding-bottom: 14px;
+	padding-top: 29px;
+	font: 32px/1.0em "Calibri";
+	color: #4E4E4E;
+}
+
+.text_foot{
+	width: 258px;
+	height: 100px;
+}
+
+.foot_left{
+	width: 86px;
+	height: 100px;
+
+}
+
+.foot_p{
+	width: 86px;
+	height: 20px;
+	
+	font-size: 13px;
+}
+
+.foot_right{
+	margin-left: 86px;
+	margin-top:-100px;
+    width: 172px;
+    height: 100px;
+    
+}
+
+.foot_r{
+	width: 172px;
+	height: 20px;
+	font-size: 13px;
+	color: #4E4E4E;
+}
+.foot_r a{
+	color: #a369c4;
+}
+
+.our1_right{
+	width: 570px;
+	height: 199px;
+	padding-left: 37px;
+	margin-left: 258px;
+	margin-top: -199px;
+}
+
+.text_top1{
+	width: 570px;
+	height: 38px;
+	padding-bottom: 14px;
+	padding-top: 29px;
+	/*border:1px solid #a0b1c4;*/
+	font: 32px/1.0em "Calibri";
+	color: #4E4E4E;
+	
+}
+.text_foot1{
+	line-height: 20px;
+	width: 570px;
+	height: 100px;
+	/*margin-top: 0px;*/
+	font-size: 13px;
+	color: #4E4E4E;
+}
+
+.contact{
+	height: 525px;
+	width: 880px;
+	padding-left: 20px;
+	padding-bottom: 52px;
+	border-top:1px solid #E5E5E5;
+	border-bottom:1px solid #E5E5E5;
+	margin: 0px auto;
+}
+
+
+.contact_name{
+	width: 880px;
+	height: 38px;
+	padding-top: 29px;
+	padding-bottom: 13px;
+	font: 32px/1.0em "Calibri";
+	color: #4E4E4E;
+}
+
+.text_left{
+	width: 104px;
+	color: #4E4E4E;
+}
+
+.left1{
+	width: 104px;
+	height: 24px;
+	padding-bottom: 6px;
+	font-size: 13px;
+}
+
+.text_right{
+	margin-top: -90px;
+	margin-left: 105px;
+	height: 406px;
+	width: 756px;
+}
+.text_right textarea{
+	overflow: auto;
+	float: left;
+	width: 742px;
+	height: 350px;
+	border: 1px solid #d5d5d5;
+	background: #fff;
+	padding: 3px 6px;
+	margin-bottom: 0;
+	color: #4e4e4e;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+.text1 {
+	color: #D5D5D5;
+	border: 1px solid ;
+	padding: 3px 6px;
+	margin-bottom: 6px;
+}
+
+.text2 {
+	color: #D5D5D5;
+	border: 1px solid ;
+	padding: 3px 6px;
+	margin-bottom: 6px;
+}
+
+.wrap{
+	width: 100%;
+	margin-top: -20px;
+}
+.wrap .link{
+	padding-right: 15px;
+	background: url("../images/marker_1.gif") right 7px no-repeat;
+}
+.right{
+	float: right;
+}
+.wrap a{
+	color: #a369c4;
+	text-decoration: underline;
+	font-size: 14px;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
