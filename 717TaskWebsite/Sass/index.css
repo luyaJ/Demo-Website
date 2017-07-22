@@ -19,8 +19,6 @@ body {
       font-size: 30px;
       font-family: 'Lemonada', cursive;
       font-weight: bold; }
-    .navbar .container-fluid .nav .active {
-      box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); }
     .navbar .container-fluid .nav li {
       height: 50px;
       width: 84px; }
@@ -126,7 +124,9 @@ body {
   background: #D99B91;
   box-shadow: 0 2px 2px 1px rgba(204, 204, 163, 0.3);
   text-align: center;
-  padding: 60px; }
+  padding: 60px;
+  z-index: 99;
+  position: relative; }
   #call h4 {
     font-size: 30px;
     color: #836C89;
@@ -160,5 +160,75 @@ footer {
   margin: 0 auto;
   text-align: center;
   line-height: 40px; }
+
+.bubbles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; }
+  .bubbles li {
+    position: fixed;
+    list-style: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-animation: square 25s infinite;
+    animation: square 25s infinite;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear; }
+    .bubbles li:nth-child(1) {
+      left: 1%; }
+    .bubbles li:nth-child(2) {
+      left: 7%;
+      width: 100px;
+      height: 100px;
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s;
+      -webkit-animation-duration: 17s;
+      animation-duration: 17s; }
+    .bubbles li:nth-child(3) {
+      left: 15%;
+      height: 50px;
+      width: 50px;
+      -webkit-animation-delay: 4s;
+      animation-delay: 4s; }
+    .bubbles li:nth-child(4) {
+      left: 80%;
+      height: 70px;
+      width: 70px;
+      -webkit-animation-duration: 22s;
+      animation-duration: 22s; }
+    .bubbles li:nth-child(5) {
+      left: 85%;
+      height: 50px;
+      width: 50px; }
+    .bubbles li:nth-child(6) {
+      left: 90%;
+      width: 120px;
+      height: 120px;
+      -webkit-animation-delay: 3s;
+      animation-delay: 3s;
+      -webkit-animation-duration: 25s;
+      animation-duration: 25s;
+      background: rgba(0, 0, 0, 0.3); }
+
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+    transform: translateY(-700px) rotate(600deg); } }
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+    transform: translateY(-700px) rotate(600deg); } }
 
 /*# sourceMappingURL=index.css.map */
