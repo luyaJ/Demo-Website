@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "微软雅黑","宋体";
+}
+.container{
+	height: 800px;
+	width: 1500px;
+}
+.left{
+	width: 170px;
+	height: 800px;
+	background-color: rgb(42,42,42);
+	font-size: 14px;
+	line-height: 40px;
+	text-indent: 20px;
+	float: left;
+	position: relative;
+}
+.sy{
+	height: 40px;
+	width: 170px;
+}
+.sy span{
+	color: #bfbfbf;
+	margin-left: 10px;
+}
+.sy:hover{
+	background-color: rgb(231,129,112);
+}
+.write{
+	margin-top: 100px;
+	margin-left: 20px;
+	color: #eee;
+}
+.left-img{
+	 float: left;
+	 height: 800px;
+	 width: 600px;
+}
+.left-img img{
+	float: left;
+}
+
+.main{
+	float: left;
+}
+.main ul li{
+	float: left;
+	height: 20px;
+	width: 70px;
+	border: 1px solid #99f;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 30px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.main ul li:hover{
+	color: #99f;
+}
+.text{
+	margin-top: 100px;
+	text-indent: 30px;	
+}
+.text a{
+	margin-right: 10px;
+}
+.text1{
+	margin-top: 40px;
+}

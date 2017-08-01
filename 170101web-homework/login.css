@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.xll{
+	width: 670px;
+}
+.left{
+	width: 170px;
+	height: 400px;
+	background-color: rgb(42,42,42);
+	font-size: 14px;
+	line-height: 40px;
+	text-indent: 20px;
+	float: left;
+	position: relative;
+}
+.sy{
+	height: 40px;
+	width: 170px;
+}
+.sy span{
+	color: #bfbfbf;
+	margin-left: 10px;
+}
+.sy:hover{
+	background-color: rgb(231,129,112);
+}
+.write{
+	margin-top: 100px;
+	margin-left: 20px;
+	color: #eee;
+}
+.left-img{
+	 float: left;
+	 height: 800px;
+	 width: 600px;
+}
+
+h3{			
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.login{
+	height: 400px;
+	width: 500px;
+	background-color: #ccf;
+	float: left;
+	text-align: center;
+}
+.lo{
+	color: black;
+}
+.denglu{
+	width: 200px;
+	background-color: #c6f;
+}
+.bottom{
+	margin-left: 80px;
+}
+.forget{
+	float: right;
+	margin-right: 150px;
+}
+
