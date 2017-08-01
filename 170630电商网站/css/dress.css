@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	height: 50px;
+	background: #cccfff;
+	border-bottom: 1px solid #ccc;
+}
+nav .head{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 3rem;
+	margin-right: 4rem;
+	line-height: 25px;
+	float: left;
+}
+nav div{
+	padding-top:10px;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+}
+nav ul .exit{
+	margin-left:2rem;
+}
+
+/*商品*/
+.media{
+	padding: 50px 200px;
+	font-family: "Carnation";
+}
+.media img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+.media p{
+	font-size: 25px;
+}
+.media .media-body{
+	padding-top: 55px;
+}
+.media .media-left{
+	padding-right: 100px;
+}
