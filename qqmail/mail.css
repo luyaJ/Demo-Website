@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.header{
+	background: #eff4fa;
+	border-bottom: 1px solid #d6dfea;
+	height: 31px;
+	padding: 15px;
+}
+.header-img{
+	margin-left: 30px;
+}
+
+.header-link{
+	float: right;
+	padding: 8px;
+	margin-right: 20px;
+}
+
+.header-link li{
+	float: left;
+	color: #1d5494;
+	font-size: 12px;	
+}
+.header-link li a{
+	color: #1d5494;
+}
+
+
+.content{
+	width: 960px;
+	margin: 32px auto;
+	padding: 60px;
+}
+.text h2{
+	color: #6f95c8;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 50px;
+}
+.text p{
+	font-size: 14px;
+	line-height: 25px;
+}
+.text-txt{
+	float: left;
+}
+.text img{
+	margin-top: 100px;
+}
+
+.login{
+	width: 320px;
+	background: #fff;
+	float: right;
+	margin-top: -400px;
+	border: 1px solid #c0cdd9;
+	height: 330px;
+	border-radius: 5px;
+}
+.login .lo-header{
+	border-bottom: 1px solid #c0cdd9;
+	padding: 20px;
+}
+.switch{
+	text-align: center;
+}
+.switch .on{
+   color: #333;
+}
+.switch .on1{
+	color: #999;
+	margin-left: 50px;
+}
+
+.lo-content .content-txt{
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+	margin-top: 40px;
+}
+.lo-content .content-txt a{
+	color: #3481CF;
+}
+.lo-content .content-txt a:hover{
+	text-decoration: underline;
+}
+
+.lo-content .images {
+	margin-top: 30px;
+	margin-left: 80px;
+}
+.lo-content .images p{
+	height: 82px;
+	width: 82px;
+	border: 1px solid #999;
+	float: left;
+	margin-right: 10px;
+}
+
+.lo-footer{
+	margin-top: 180px;
+	font-size: 12px;
+}
+.lo-footer input{
+	margin-left: 10px;
+}
+.lo-footer a{
+	float: right;
+	color: #225592;
+}
+.lo-footer a:hover{
+	text-decoration: underline;
+}
+.lo-footer .a1{
+	margin-right: 10px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+	background: #eff4fa;
+	border: 1px solid #d6dfea;
+	line-height: 36px;
+	color: #b6b6b6;
+	width: 100%;
+}
+footer ul{
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 700px;
+}
+footer ul li{
+	float: left;
+	margin: 0 auto;
+}
+footer ul .copy{
+	color: #6b6b6b;
+}
+footer ul .li1{
+	color: #225592;
+}
+footer ul .li1:hover{
+	text-decoration: underline;
+}
