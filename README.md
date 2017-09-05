@@ -1,5 +1,15 @@
 # DemoWebsite
 
+### 政工网
+
+和Awebone共同完成，为期一周
+
+*begining time: 2017/8/30*
+
+*finished time: 2017/9/5*
+
+Using: HTML & CSS & bootstrap & jquery
+
 ### XiaMen-Project
 
 这是一个小组任务，四个人共同完成.
