@@ -1,0 +1,179 @@
+/**
+*公共样式
+*/
+
+
+/* 从黄色线开始 */
+
+.content-yellow {
+    width: 1030px;
+    float: right;
+}
+
+/* 黄色实线 */
+
+.line {
+    height: 4px;
+    background: rgb(240, 177, 1);
+    margin-bottom: 21px;
+}
+
+/* 黄线以下部分的内容 */
+
+.news-container {
+    width: 1000px;
+}
+
+.news-nav,
+.works-nav,
+.specials-nav,
+.zhenggs-nav,
+.totals-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 新闻资讯，工作指导... */
+/* 左边黑色字+红色字+拼音*/
+
+.news-nav-left,
+.works-nav-left,
+.specials-nav-left,
+.zhenggs-nav-left,
+.totals-nav-left{
+    height: 35px;
+    font-size: 23px;
+    border-bottom: 3px solid rgb(204, 0, 51);
+    font-weight: bold;
+    float: left;
+}
+
+.span_black {
+    margin-left: 2px;
+}
+
+.span_red {
+    color: rgb(214, 38, 38);
+    margin-right: 20px;
+}
+
+.span_grey {
+    color: rgb(205, 205, 205);
+}
+
+
+/* 面包导航 */
+
+.breadcrumb {
+    background: #fff;
+    color: #fff;
+}
+
+.breadcrumb a {
+    color: #000;
+    font-size: 16px;
+}
+
+
+/* 红底白字部分 */
+
+.item-top {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.span_bgred {
+    height: 36px;
+    width: 36px;
+    background: rgb(183, 55, 55);
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    float: left;
+}
+
+.bgred_back {
+    border-bottom: 2px solid rgb(183, 55, 55);
+    margin-left: 3px;
+    font-size: 18px;
+    padding: 7px;
+}
+
+.item-top img {
+    height: 21px;
+    width: 21px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+/* 左边 信息 */
+.content-left{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 99;
+}
+
+/* 右边 信息 */
+
+.content-right{
+    float: right;
+}
+.content-right .right-news{
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+}
+.content-right .right-tabs{
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    width: 60px;
+    position: absolute;
+    top: 390%;
+    right: 11%;
+    text-align: center;
+}
+.content-right .right-tabs li{
+    padding: 8px;
+    cursor: pointer;
+}
+
+.content-right .right-tabs li:hover{
+    background: rgb(166,166,166);
+    color: #fff;
+}
+
+.content-right .right-tabs .on{
+    background: rgb(166,166,166);
+    color: #fff;
+}
+
+/* 当页面窗口小于1482时 隐藏两边固定的内容 */
+@media screen and (max-width: 1400px) {
+    .content-left {
+        display: none;
+    }
+    .content-right {
+        display: none;
+    }
+}
+@media screen and (max-width: 1400px) {
+    body{
+        width: 1520px;
+    }
+}
+/* @media screen and (max-width: 1000px) {
+    body{
+        width: 1520px;
+    }
+} */
